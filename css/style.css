@@ -2,13 +2,30 @@ body {
     background-color: #FFF;
     font-family: "Roboto", sans-serif;
     font-style: normal;
-    color: #434455
+    color: #434455;
+    max-width: 1440px;
 }
 
 ul {
     list-style-type: none;
 }
+h1, h2, h3, h4, h5, h6, p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
 
+ul, ol {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+.container {
+    padding-left: 156px;
+    padding-right: 156px;
+    margin-left: 24px;
+    margin-right: 24px;
+    display: flex;
+}
 /* header */
 .logo {
     color:#4D5AE5;
@@ -59,6 +76,7 @@ ul {
 
 .address-text {
     font-style: normal;
+   
 }
 .contacts {
     color: #434455;
@@ -67,10 +85,29 @@ ul {
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-decoration: none;
+
 }
 .contacts:hover,
 .contacts:focus {
     color:#404bbf;
+}
+
+.nav {
+    display: flex;
+}
+
+.nav-list {
+    margin-left: 76px;
+    display: flex;
+    gap: 40px;
+    
+}
+
+.contacts-list {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 40px;
+    padding: 24px;
 }
 
 /* hero section */
