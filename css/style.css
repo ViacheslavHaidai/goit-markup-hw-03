@@ -118,6 +118,14 @@ ul, ol {
 
 
 /* hero section */
+.hero-section-location {
+    padding-top: 188px;
+    padding-bottom: 188px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 48px;
+}
 .hero-section {
     background-color:#2E2F42;
 }
@@ -129,6 +137,7 @@ ul, ol {
     line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
+    width: 496px;
 }
 .hero-section-button {
     background-color: #4D5AE5;
@@ -140,6 +149,11 @@ ul, ol {
     line-height: 1.5;
     letter-spacing: 0.04em;
     font-family: "Roboto", sans-serif;
+    display: inline-flex;
+        padding: 16px 32px;
+        align-items: flex-start;
+        gap: 10px;
+        border-radius: 4px;
 }
 .hero-section-button:hover,
 .hero-section-button:focus {
