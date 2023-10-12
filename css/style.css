@@ -24,9 +24,13 @@ ul, ol {
     padding-right: 156px;
     margin-left: 24px;
     margin-right: 24px;
-    display: flex;
+    max-width: 1440px;
 }
 /* header */
+.header {
+    display: flex;
+    justify-content: space-between;
+}
 .logo {
     color:#4D5AE5;
     font-family: "Raleway", sans-serif;
@@ -36,6 +40,8 @@ ul, ol {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     text-decoration: none;
+    display: flex;
+    align-items: center;
     
 }
 .logo:hover,
@@ -60,6 +66,7 @@ ul, ol {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    display: flex;
 }
 .navigation-link {
     text-decoration: none;
@@ -76,7 +83,14 @@ ul, ol {
 
 .address-text {
     font-style: normal;
-   
+    display: flex;
+    align-items: center ;
+    
+}
+.contacts-list {
+    display: flex;
+    gap: 40px;
+
 }
 .contacts {
     color: #434455;
@@ -92,23 +106,16 @@ ul, ol {
     color:#404bbf;
 }
 
-.nav {
-    display: flex;
-}
 
 .nav-list {
     margin-left: 76px;
+    padding-top: 24px;
+    padding-bottom: 24px;
     display: flex;
-    gap: 40px;
-    
+    gap: 40px; 
 }
 
-.contacts-list {
-    display: flex;
-    flex-direction: row-reverse;
-    gap: 40px;
-    padding: 24px;
-}
+
 
 /* hero section */
 .hero-section {
