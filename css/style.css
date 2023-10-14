@@ -26,6 +26,19 @@ ul, ol {
     margin-right: 24px;
     max-width: 1440px;
 }
+img {
+    display: block;
+    max-width: 100%;
+}
+.page-container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+}
+main {
+    flex-grow: 1;
+}
 /* header */
 .header {
     display: flex;
@@ -162,12 +175,16 @@ ul, ol {
 }
 /* our strategy */
 
+.our-strategy-list {
+    width: calc((1128px - 72px) / 4);
+}
 .strategy-list {
     padding-top: 120px;
     padding-bottom: 120px;
     display: flex;
     gap: 24px;
     justify-content: center;
+    
 }
 .our-strategy-title {
     font-size: 20px;
@@ -183,7 +200,8 @@ ul, ol {
     line-height: 1.5;
     letter-spacing: 0.02em;
     margin-top: 8px;
-    width: calc((1128px - 72px) / 4);
+    
+   
 }
 
 /* our team */
@@ -245,20 +263,21 @@ ul, ol {
 }
 /* our portfolio */
 
-.our-portfolio-container {
+.our-portfolio-container { 
     padding-top: 120px;
     padding-bottom: 120px;
+  
+    
 }
 .our-portfolio-container-list {
     display: flex;
     flex-wrap: wrap;
-    row-gap: 24px;
-    column-gap: 48px;
-   
-   
+    row-gap: 48px;
+    column-gap: 24px;
 }
-.our-products-item-text {
-display: flex;
+
+ .our-products-item-text { 
+    display: flex;
     padding: 0px 16px;
     flex-direction: column;
     justify-content: center;
@@ -268,13 +287,14 @@ display: flex;
     padding-top: 32px;
     padding-bottom: 32px;
     border: 1px solid var(--CORNFLOWER, #E7E9FC);
-        background: var(--WHITE, #FFF);
-        border-top: none;
+    background: var(--WHITE, #FFF);
+    border-top: none;
 }
 .our-products-item {
     width: calc((100% - 48px) / 3);
-    
+    justify-content: center;
 }
+
 .our-portfolio {
     color:#2E2F42;
     font-size: 36px;
