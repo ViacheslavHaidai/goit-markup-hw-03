@@ -295,7 +295,6 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    gap: 8px;
     align-self: stretch;
     padding-top: 32px;
     padding-bottom: 32px;
@@ -324,6 +323,7 @@ main {
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    margin-bottom: 8px;
 }
 .our-products-text {
     color:#434455;
