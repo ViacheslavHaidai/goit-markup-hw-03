@@ -363,4 +363,5 @@ main {
         text-transform: uppercase;
         text-decoration: none;
         margin-bottom: 16px;
+        display: inline-block;
 }
