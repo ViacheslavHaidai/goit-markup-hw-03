@@ -48,6 +48,7 @@ main {
     display: flex;
     width: 1158px;
     padding: 0 15px 0 15px;
+    margin: 0 auto;
     
 }
 .logo {
@@ -89,7 +90,7 @@ main {
     
 }
 .nav-list-link {
-    padding: 24px 0 24px;
+    padding: 24px 0;
 }
 .navigation-link {
     text-decoration: none;
