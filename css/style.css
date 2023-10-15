@@ -49,6 +49,7 @@ main {
     width: 1158px;
     padding: 0 15px 0 15px;
     margin: 0 auto;
+    justify-content: space-between;
     
 }
 .logo {
@@ -99,6 +100,7 @@ main {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    padding: 24px 0;
 }
 .navigation-link:hover,
 .navigation-link:focus {
@@ -107,7 +109,9 @@ main {
 
 .address-text {
     font-style: normal;
+    display: flex;
     align-items: center;
+    
 }
 .contacts-list {
     display: flex;
