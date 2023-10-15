@@ -43,11 +43,12 @@ main {
 .section-header {
     border-bottom: 1px solid #e7e9fc;
     
-    
 }
 .header-container {
     display: flex;
     width: 1158px;
+    padding: 0 15px 0 15px;
+    
 }
 .logo {
     color:#4D5AE5;
@@ -58,7 +59,7 @@ main {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     text-decoration: none;
-    margin-right: 76px
+    margin-right: 76px;
     
 }
 .logo:hover,
@@ -105,18 +106,12 @@ main {
 
 .address-text {
     font-style: normal;
-    display: flex;
     align-items: center;
-    justify-content: flex-end;
-    
 }
 .contacts-list {
     display: flex;
     gap: 40px;
     padding: 0 15px 0 15px;
-    
-
-
 }
 .contacts {
     color: #434455;
@@ -133,7 +128,7 @@ main {
 }
 
 
-.header-container .nav-list {
+.nav-list {
     display: flex;
     gap: 40px; 
 }
