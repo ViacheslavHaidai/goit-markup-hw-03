@@ -217,10 +217,7 @@ main {
 }
 
 /* our team */
-.our-team-container {
-    padding-top: 120px;
-    padding-bottom: 120px;
-}
+
 .our-team-container-list {
     display: flex;
     justify-content: center;
@@ -231,6 +228,7 @@ main {
 
 .our-team {
     background-color:#F4F4FD;
+    padding: 120px 0;
 }
 .our-team-list {
     background-color: #FFFFFF;
