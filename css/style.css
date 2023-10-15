@@ -40,9 +40,11 @@ main {
     flex-grow: 1;
 }
 /* header */
-.header {
+.header-container {
     display: flex;
     justify-content: space-between;
+    border-bottom: 1px solid #e7e9fc;
+    
 }
 .logo {
     color:#4D5AE5;
@@ -53,8 +55,7 @@ main {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     text-decoration: none;
-    display: flex;
-    align-items: center;
+    margin-right: 76px
     
 }
 .logo:hover,
@@ -71,7 +72,7 @@ main {
     letter-spacing: 0.03em;
 }
 
-.navigation {
+.nav {
     color: #2E2F42;
     font-family: Roboto;
     font-size: 16px;
@@ -80,6 +81,11 @@ main {
     line-height: 1.5;
     letter-spacing: 0.02em;
     display: flex;
+    align-items: center;
+    
+}
+.nav-list-link {
+    padding: 24px 0 24px;
 }
 .navigation-link {
     text-decoration: none;
@@ -97,12 +103,15 @@ main {
 .address-text {
     font-style: normal;
     display: flex;
-    align-items: center ;
+    align-items: center;
     
 }
 .contacts-list {
     display: flex;
     gap: 40px;
+    padding: 0 15px 0 15px;
+    justify-content: flex-end;
+
 
 }
 .contacts {
@@ -120,10 +129,7 @@ main {
 }
 
 
-.nav-list {
-    margin-left: 76px;
-    padding-top: 24px;
-    padding-bottom: 24px;
+.header-container .nav-list {
     display: flex;
     gap: 40px; 
 }
