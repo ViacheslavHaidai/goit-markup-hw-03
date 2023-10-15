@@ -40,10 +40,14 @@ main {
     flex-grow: 1;
 }
 /* header */
-.header-container {
+.section-header {
     display: flex;
     justify-content: space-between;
     border-bottom: 1px solid #e7e9fc;
+    width: 1158px;
+}
+.header-container {
+    display: flex;
     
 }
 .logo {
@@ -100,17 +104,18 @@ main {
     color: #404bbf;
 }
 
-.address-text {
+.header-container .address-text {
     font-style: normal;
     display: flex;
     align-items: center;
+    justify-content: flex-end;
     
 }
 .contacts-list {
     display: flex;
     gap: 40px;
     padding: 0 15px 0 15px;
-    justify-content: flex-end;
+    
 
 
 }
