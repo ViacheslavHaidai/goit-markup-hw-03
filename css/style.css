@@ -224,7 +224,7 @@ img {
     display: flex;
     justify-content: center;
     gap: 24px;
-    margin-top: 72px;
+    
     
 }
 .team-container {
@@ -256,7 +256,7 @@ img {
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    
+    margin-bottom: 72px;
     text-align: center;
    
 }
@@ -267,6 +267,7 @@ img {
     line-height: 1.2;
     letter-spacing: 0.02em;
     text-align: center;
+    margin-bottom: 8px;
     
    
 }
@@ -277,7 +278,7 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: center;
-    margin-top: 8px;
+    
   
 }
 /* our portfolio */
@@ -289,7 +290,6 @@ img {
     flex-wrap: wrap;
     row-gap: 48px;
     column-gap: 24px;
-    margin-top: 72px;
 }
 
  .our-products-item-text { 
@@ -318,7 +318,7 @@ img {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     text-align: center;
-    
+    margin-bottom: 72px;
 }
 .our-products {
     color: #2E2F42;
@@ -326,7 +326,7 @@ img {
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    
+    margin-bottom: 8px;
 }
 .our-products-text {
     color:#434455;
@@ -334,8 +334,6 @@ img {
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    margin-top: 8px;
-   
 }
 /* footer */
 .footer {
@@ -351,8 +349,6 @@ img {
     letter-spacing: 0.02em;
     max-width: 264px;
     display: block;
-    margin-top: 16px;
-
 }
 .logo-part-footer {
     font-family: "Raleway", sans-serif;
@@ -368,4 +364,5 @@ img {
     text-transform: uppercase;
     text-decoration: none;
     display: inline-block;
+    margin-bottom: 16px;
 }
